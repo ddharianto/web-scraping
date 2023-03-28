@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # send a GET request to the website
-url = 'https://www.bbc.com/news/world-europe-64986486'
+url = 'https://example.com'
 response = requests.get(url)
 
 # parse the HTML content with BeautifulSoup
